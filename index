@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anahtar Tasarımcı</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Anahtar Tasarımcı</h1>
+  
+  <div class="controls">
+    <label>Uzunluk (mm):
+      <input type="number" id="length" value="60" min="10" max="120" />
+    </label>
+    <label>Genişlik (mm):
+      <input type="number" id="width" value="25" min="5" max="50" />
+    </label>
+    <label>Kalınlık (mm):
+      <input type="number" id="thickness" value="3" min="1" max="10" />
+    </label>
+    <button id="generate">STL Olarak İndir</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
